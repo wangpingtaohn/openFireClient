@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">openFireClient</string>
+
+    <!-- 下拉刷新 start-->
+     <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_hint_nomore">已无更多</string>
+    <!-- 下拉刷新 end-->
+    
+    <!-- 注册start-->
+     <string name="str_register_phone_tab_text">手机注册</string>
+     <string name="str_register_mail_tab_text">邮箱注册</string>
+     <string name="str_register_commit_btn">提交</string>
+     <string name="str_register_phone_number_text">手机号码</string>
+     <string name="str_register_sms_verify_code_text">短信验证码</string>
+     <string name="str_register_mail_text">电子邮箱</string>
+     <string name="str_register_mail_verify_code_text">邮箱验证码</string>
+     <string name="str_register_pwd_text">登录密码</string>
+     <string name="str_register_confir_pwd_text">确认登录密码</string>
+    <!-- 注册 end-->
+    
+    <!-- 登录 start-->
+     <string name="str_login_account_text">账号:</string>
+     <string name="str_login_account_hint_text">请输入账号</string>
+     <string name="str_login_pwd_text">密码:</string>
+     <string name="str_login_pwd_hint_text">请输入密码</string>
+     <string name="str_login_btn_text">登录</string>
+     <string name="str_forget_pwd_text">忘记密码?</string>
+     <string name="str_create_account_text">创建新账号</string>
+    <!-- 登录 end-->
+</resources>

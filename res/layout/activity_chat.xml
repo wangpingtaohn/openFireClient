@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/chat_top_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="昵称"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/chat_input"
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:scrollbars="vertical"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:hint="请输入内容"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/chat_btn_send"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="20dp"
+        android:text="发送" />
+
+</LinearLayout>
